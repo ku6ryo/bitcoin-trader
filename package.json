@@ -1,0 +1,25 @@
+{
+  "name": "bitflyer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "jest",
+    "coincheck": "ts-node coincheck"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.16",
+    "axios": "^0.21.0",
+    "coincheck": "file:./coincheck-node",
+    "csv-parser": "^3.0.0",
+    "delay": "^4.4.0",
+    "dotenv": "^8.2.0",
+    "ts-jest": "^26.4.4",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.2"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
